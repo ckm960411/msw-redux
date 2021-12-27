@@ -1,6 +1,15 @@
 import { rest } from "msw";
 
 export const handlers = [
+  rest.get("https://localhost:3000/todo", async (req, res, ctx) => {
+    return res(
+      ctx.json({
+        todo: {
+          task: 'Todo from Server',
+        }
+      })
+    )
+  }),
   rest.put("https://localhost:3000/counter/increment", async (req, res, ctx) => {
     const { value } = req.body
     return res(
@@ -9,7 +18,6 @@ export const handlers = [
       })
     )
   }),
-
   rest.get("/login", async (req, res, ctx) => {
     return res(
       ctx.json({
