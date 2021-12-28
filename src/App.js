@@ -11,7 +11,8 @@
 // import CurrentUserInfo from './components/RecoilExample/CurrentUserInfo';
 // import Text from './components/ZustandExample/Text';
 // import CharacterCounter from './components/ZustandExample/CharacterCounter';
-import TodoList from './components/ZustandExample/Todo/TodoList';
+// import TodoList from './components/ZustandExample/Todo/TodoList';
+import CurrentUserInfo from './components/ZustandExample/CurrentUserInfo';
 import './App.css';
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
       {/* </RecoilRoot> */}
       {/* <Text /> */}
       {/* <CharacterCounter /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <CurrentUserInfo />
     </div>
   );
 }
