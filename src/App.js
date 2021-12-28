@@ -12,7 +12,8 @@
 // import Text from './components/ZustandExample/Text';
 // import CharacterCounter from './components/ZustandExample/CharacterCounter';
 // import TodoList from './components/ZustandExample/Todo/TodoList';
-import CurrentUserInfo from './components/ZustandExample/CurrentUserInfo';
+// import CurrentUserInfo from './components/ZustandExample/CurrentUserInfo';
+import ClickCounts from './components/ZustandExample/ClickCounts';
 import './App.css';
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
       {/* <Text /> */}
       {/* <CharacterCounter /> */}
       {/* <TodoList /> */}
-      <CurrentUserInfo />
+      {/* <CurrentUserInfo /> */}
+      <ClickCounts />
     </div>
   );
 }
