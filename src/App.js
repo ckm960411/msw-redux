@@ -9,9 +9,10 @@
 // import TodoList from './components/RecoilExample/Todo/TodoList';
 // import { RecoilRoot } from 'recoil';
 // import CurrentUserInfo from './components/RecoilExample/CurrentUserInfo';
-import Text from './components/ZustandExample/Text';
+// import Text from './components/ZustandExample/Text';
+// import CharacterCounter from './components/ZustandExample/CharacterCounter';
+import TodoList from './components/ZustandExample/Todo/TodoList';
 import './App.css';
-import CharacterCounter from './components/ZustandExample/CharacterCounter';
 
 function App() {
   return (
@@ -27,8 +28,9 @@ function App() {
         {/* <TodoList /> */}
         {/* <CurrentUserInfo /> */}
       {/* </RecoilRoot> */}
-      <Text />
-      <CharacterCounter />
+      {/* <Text /> */}
+      {/* <CharacterCounter /> */}
+      <TodoList />
     </div>
   );
 }
